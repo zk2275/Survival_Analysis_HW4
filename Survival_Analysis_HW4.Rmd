@@ -1,0 +1,25 @@
+---
+title: "Survival Analysis HW4"
+author: "Zhuodiao Kuang"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# a) Construct the 17 2x2 tables for the log-rank test.
+
+|i|Group|Events at $t_{(i)}$|Survival at $t_{(i)}^+$|Expected|At risk at $t_{(i)}^-$|
+|---|---|---|---|---|---|
+|1|0|0|21|1|21|
+|1|0|0|21|1|21|
+|1|0|0|21|1|21|
+|---|---|---|---|---|---|
+|1|0|0|21|1|21|
+|1|0|0|21|1|21|
+|1|0|0|21|1|21|
+|---|---|---|---|---|---|
+
+
+
+# b) Verify the rank statistics by calculating the difference of the observed and expected in each 2x2 tables
+
+$$L= \sum_{i=1}^k(d_{0i}-e_{0i})=-10.25$$
