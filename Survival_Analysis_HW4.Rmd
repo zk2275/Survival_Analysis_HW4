@@ -113,4 +113,31 @@ L
 ```
 
 
+# Problem 2
+
+#### Step 1: Prepare a table shell or figure shell to compare the simulation results 
+
+For example:
+
+![](Table.png)
+
+#### Step 2: Choose parameters – parameters may need to be adjusted to obtain adequate power for comparisons
+
+* Sample size n1 and n2 for Groups 1 and 2, respectively; 
+* Create two survival datasets, given that both of the failure times are log-normally distributed, with equal variance but different means.
+* Choose maximum follow-up time
+* Choose simulation trials, for power trials=2000
+
+#### Step 3: For each trial 
+
+* Generate data for two independent groups based on normal distributions, with sample size n1 and n2 for Groups 1 and 2, respectively
+* Transform normally distributed data to log-normal
+* Generate independent random censoring data using exponential distribution
+* Obtain observed survival data
+* Test between group difference in survival time and obtain the p-values for log-rank, Wilcoxon, Tarone-Ware, and Peto-Prentice
+
+#### Step 4: Repeat Step 3 for 2000 times
+
+#### Step 5: Calculate the proportion of p-values that are significant at the level of 2-sided 0.05 (or 1-sided 0.025). Especially compare the powers of Wilcoxon test with other tests, to see whether the Wilcoxon test has the optimal power or not.
+
 
