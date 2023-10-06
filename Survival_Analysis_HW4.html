@@ -11,7 +11,7 @@
 
 <meta name="author" content="Zhuodiao Kuang" />
 
-<meta name="date" content="2023-10-05" />
+<meta name="date" content="2023-10-06" />
 
 <title>Survival Analysis HW4</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">Survival Analysis HW4</h1>
 <h4 class="author">Zhuodiao Kuang</h4>
-<h4 class="date">2023-10-05</h4>
+<h4 class="date">2023-10-06</h4>
 
 </div>
 
@@ -1006,69 +1006,37 @@ test has the optimal power or not.</h4>
 <div id="please-discuss-how-to-perform-the-analysis-stratified-or-non-stratified-analyses-how-would-you-recommend-the-analysis" class="section level4">
 <h4>Please discuss how to perform the analysis: stratified or
 non-stratified analyses? How would you recommend the analysis?</h4>
-<p>The choice of analysis method depends on the design and objectives of
-the trial.</p>
-<p>If the trial was designed to test the effect of the new treatment in
-the overall population, regardless of the biomarker status, then a
-non-stratified analysis would be appropriate. This would compare the
-survival outcomes of the new treatment group and the SOC group without
-adjusting for the biomarker variable. However, this analysis might not
-detect a significant difference between the groups, since the positive
-effect of the new treatment in the biomarker+ subgroup would be offset
-by the negative effect in the biomarker- subgroup. Moreover, this
-analysis would not provide any information on how the new treatment
-interacts with the biomarker variable, which might be clinically
-relevant.</p>
-<p>If the trial was designed to test the effect of the new treatment in
-different subgroups defined by the biomarker status, then a stratified
-analysis would be appropriate. This would compare the survival outcomes
-of the new treatment group and the SOC group within each biomarker
-subgroup, adjusting for the stratification variable. This analysis would
-allow for a more precise estimation of the treatment effect in each
-subgroup, and also enable testing for a potential interaction between
-the treatment and the biomarker variable. However, this analysis might
-require a larger sample size to achieve adequate power in each subgroup,
-and it might also increase the risk of type I error due to multiple
-comparisons.</p>
-<p>Therefore, the choice of analysis method should be based on the
-primary research question and hypothesis of the trial, and ideally
-pre-specified in the protocol or statistical analysis plan.</p>
+<p>Different methods of analysis can be used for a trial, depending on
+its goals. A non-stratified analysis is suitable if the trial aims to
+evaluate the new treatment in the whole population, without considering
+the biomarker status. However, a stratified analysis is a more proper
+choice if the trial aims to evaluate the new treatment in different
+subgroups based on the biomarker status.</p>
+<p>I would suggest the method of non-stratification, even tough we
+cannot get more information out of this kind of analysis, the
+comparability and causation are guaranteed. Because the statified
+analysis may sound like an as-treated analysis, which may generate bias.
+For example, the patients in biomarker+ subgroup may have a more proper
+dietary that can keep them comfortable with the treatment and have a
+good effect. Biomarker- subgroup may have a negative outcome but that’s
+not due to the treatment. The treatment can work well but the patients’
+habits offset the positive effects. So, if this is a randomized
+controlled trial, I suggest the method of non-stratification.</p>
 </div>
 <div id="do-you-think-if-fda-should-approve-this-drug" class="section level4">
 <h4>Do you think if FDA should approve this drug?</h4>
-<p>This is a very difficult question to answer, as there are many
-factors that the FDA would consider before approving a new drug. Some of
-these factors are:</p>
-<p>The magnitude and significance of the treatment effect in the
-biomarker+ subgroup. How much does the new treatment improve the
-survival outcomes compared to the SOC? Is this difference statistically
-and clinically meaningful? The safety and tolerability of the new
-treatment in both subgroups. How severe and frequent are the adverse
-events associated with the new treatment? How do they compare to the
-SOC? Are there any serious or unexpected risks that outweigh the
-benefits? The validity and reliability of the biomarker test. How
-accurate and precise is the test in identifying the biomarker+ and
-biomarker- subgroups? How easy and feasible is it to perform the test in
-clinical practice? How well is the test validated and standardized
-across different settings and populations? The ethical and social
-implications of approving a drug that harms a subgroup of patients. How
-can the FDA ensure that only the biomarker+ patients receive the new
-treatment and not the biomarker- patients? How can the FDA communicate
-this information to the public and health care providers? How can the
-FDA address any potential issues of discrimination, stigma, or access
-that might arise from approving such a drug? Therefore, the FDA would
-need to weigh all these factors carefully and balance the benefits and
-risks of the new treatment for both subgroups. The FDA would also need
-to review the quality and rigor of the trial design, conduct, analysis,
-and reporting, as well as any other relevant data from preclinical or
-clinical studies. The FDA might also seek input from external experts,
-stakeholders, or patients through advisory committees, public hearings,
-or patient-focused drug development meetings.</p>
-<p>Ultimately, the FDA’s decision would depend on whether the new
-treatment provides a substantial improvement over existing therapies for
-a serious or life-threatening condition, and whether there is sufficient
-evidence to support its safety and effectiveness in the intended
-population.</p>
+<p>I think FDA should get more information before they make a decision,
+so I don’t think they would approve this drug after a single trial.</p>
+<p>First, the magnitude and significance of the treatment effect in the
+biomarker+ subgroup are not reported. Besides, we are still not sure
+about the safety and tolerability of the new treatment in both
+subgroups. Last but not the least, the expense of producing the new
+treatment should be taken into consideration.</p>
+<p>To sum up, the FDA would need to weigh all these factors carefully
+and balance the benefits and risks of the new treatment for both
+subgroups. The FDA would also need to review the quality and rigor of
+the trial design, conduct, analysis, and reporting, as well as any other
+relevant data from preclinical or clinical studies.</p>
 </div>
 </div>
 
