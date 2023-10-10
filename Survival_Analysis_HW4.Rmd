@@ -152,7 +152,9 @@ Different methods of analysis can be used for a trial, depending on its goals. A
 #### How would you recommend the analysis?  
 
 
-I would suggest the method of non-stratification, even tough we cannot get more information out of this kind of analysis, the comparability and causation are guaranteed. Because the statified analysis may sound like an as-treated analysis, which may generate bias. For example, the patients in biomarker+ subgroup may have a more proper dietary that can keep them comfortable with the treatment and have a good effect. Biomarker- subgroup may have a negative outcome but that's not due to the treatment. The treatment can work well but the patients' habits offset the positive effects. So, if this is a randomized controlled trial, I suggest the method of non-stratification. 
+To avoid as-treated analysis, which may generate bias, I would first devide patients into 2 groups by biomarker status before the new treatment. Then, I would recommend a stratified analysis, because the true outcomes may be covered up without stratification. This would allow me to estimate the treatment effect and its confidence interval for each subgroup separately, and test for statistical significance.
+
+Besides, I would perform a subgroup analysis by biomarker status, using a Cox proportional hazards model to adjust for potential confounding factors. This would allow me to control for other variables that may affect the survival outcome, such as age, gender, disease stage, etc.
 
 #### Do you think if FDA should approve this drug?  
 
